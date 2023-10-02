@@ -13,5 +13,8 @@ public class sistema {
         System.out.println("INICIANDO...");
         System.out.print("Usuário: ");
         usuario = teclado.nextLine();
+        if (!(usuario == null)) {
+                        
+        }
     }
 }
