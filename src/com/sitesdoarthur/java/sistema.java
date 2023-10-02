@@ -1,7 +1,6 @@
 package com.sitesdoarthur.java;
 
 import java.util.Scanner;
-import com.sitesdoarthur.program.interface_interna;
 
 public class sistema {
     /**
@@ -14,9 +13,14 @@ public class sistema {
             System.out.println("INICIANDO...");
             System.out.print("Usuário: ");
             usuario = teclado.nextLine();
+            if (!(usuario == null)) {
+                System.out.print("root> ");
+                String commando = teclado.nextLine();
+                if("boot".equals(commando)) {
+                    System.out.println("Em desenvlvimento");
         }
-        if (!(usuario == null)) {
-            interface_interna.main(args);
+        
         }
     }
-}
+  }
+}    
