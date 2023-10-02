@@ -1,6 +1,7 @@
 package com.sitesdoarthur.java;
 
 import java.util.Scanner;
+import com.sitesdoarthur.program.interface_interna;
 
 public class sistema {
     /**
@@ -14,7 +15,7 @@ public class sistema {
         System.out.print("Usuário: ");
         usuario = teclado.nextLine();
         if (!(usuario == null)) {
-                        
+            interface_interna.main(args);
         }
     }
 }
