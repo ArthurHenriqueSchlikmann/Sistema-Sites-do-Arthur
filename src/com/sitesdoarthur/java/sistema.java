@@ -6,6 +6,8 @@ public class sistema {
      * @version 1b
      */
     public static void main(String[] args) {
+        boolean usario;
         System.out.println("INICIANDO...");
+        System.out.print("Usuário");
     }
 }
