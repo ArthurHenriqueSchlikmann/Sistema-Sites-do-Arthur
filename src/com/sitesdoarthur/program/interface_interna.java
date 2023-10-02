@@ -7,6 +7,8 @@ public class interface_interna {
         System.out.print("root> ");
         Scanner teclado = new Scanner(System.in);
         String commando = teclado.nextLine();
-        if("boot".equals(commando)) {}
+        if("boot".equals(commando)) {
+            System.out.println("Em desenvlvimento");
+        }
     }
 }
