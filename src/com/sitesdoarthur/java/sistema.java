@@ -17,7 +17,7 @@ public class sistema {
                 System.out.print("root> ");
                 String commando = teclado.nextLine();
                 if("boot".equals(commando)) {
-                    System.out.println("Em desenvlvimento");
+                    System.out.println("");
         }
         
         }
