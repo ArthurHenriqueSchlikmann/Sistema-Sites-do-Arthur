@@ -1,5 +1,5 @@
 package com.sitesdoarthur.fxml;
 
-public class contoller_gerenciador {
+public class Contoller_gerenciador {
     
 }
