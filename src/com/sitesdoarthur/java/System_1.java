@@ -2,7 +2,7 @@ package com.sitesdoarthur.java;
 
 import java.util.Scanner;
 
-public class Sistema {
+public class System_1 {
     /**
      * @author ArthurHenriqueSchlikmann
      * @version 1b
