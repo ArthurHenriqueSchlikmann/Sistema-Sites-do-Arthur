@@ -16,11 +16,11 @@ public class Sistema {
             if (!(usuario == null)) {
                 System.out.print("root> ");
                 String commando = teclado.nextLine();
-                if("boot".equals(commando)) {
-                    System.out.println("");
-        }
+                if("dir".equals(commando)) {
+                    System.out.println("DIR.COM");
+                }
         
+            }
         }
     }
-  }
 }    
