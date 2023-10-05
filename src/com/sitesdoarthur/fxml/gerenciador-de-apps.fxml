@@ -3,7 +3,8 @@
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
-i
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
 <AnchorPane >
 </AnchorPane>
