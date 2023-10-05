@@ -18,6 +18,7 @@ public class System_1 {
                 String commando = teclado.nextLine();
                 if("dir".equals(commando)) {
                     System.out.println("DIR.COM");
+                    System.out.println("EXIT.COM");
                 }
         
             }
