@@ -19,6 +19,7 @@ public class System_1 {
                 if("dir".equals(commando)) {
                     System.out.println("DIR.COM");
                     System.out.println("EXIT.COM");
+                    System.out.println("HELP.COM");
                 }
         
             }
