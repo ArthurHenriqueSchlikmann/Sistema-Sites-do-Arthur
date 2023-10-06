@@ -2,8 +2,6 @@ package com.sitesdoarthur.java;
 
 import java.util.Scanner;
 
-import javax.print.DocFlavor.SERVICE_FORMATTED;
-
 public class System_1 {
     /**
      * @author ArthurHenriqueSchlikmann
