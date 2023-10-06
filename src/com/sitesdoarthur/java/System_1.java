@@ -2,6 +2,8 @@ package com.sitesdoarthur.java;
 
 import java.util.Scanner;
 
+import javax.print.DocFlavor.SERVICE_FORMATTED;
+
 public class System_1 {
     /**
      * @author ArthurHenriqueSchlikmann
@@ -23,7 +25,10 @@ public class System_1 {
                     System.out.println("NOTES.COM (temporary)");
                     System.out.println("Em desenvolvimento");
                 }
-        
+                if("help".equals(commando)) {
+                    System.out.print("digite dir e tude o que tiver a extensão .com é um ");
+                    System.out.println("comando que podemos usar");
+                }
             }
         }
     }
