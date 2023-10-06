@@ -10,7 +10,6 @@ public class System_1 {
     public static void main(String[] args) {
         String usuario;
         try (Scanner teclado = new Scanner(System.in)) {
-            boolean ativado = true;
             System.out.println("INICIANDO...");
             System.out.print("Usuário: ");
             usuario = teclado.nextLine();
