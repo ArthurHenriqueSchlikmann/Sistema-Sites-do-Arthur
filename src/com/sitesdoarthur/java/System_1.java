@@ -26,6 +26,7 @@ public class System_1 {
                 if("help".equals(commando)) {
                     System.out.print("digite dir e tude o que tiver a extensão .com é um ");
                     System.out.println("comando que podemos usar");
+                    System.out.println("");
                 }
             }
         }
