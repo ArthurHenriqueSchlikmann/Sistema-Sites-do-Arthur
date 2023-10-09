@@ -21,14 +21,15 @@ public class System_1 {
                     System.out.println("DIR.COM");
                     System.out.println("EXIT.COM");
                     System.out.println("HELP.COM");
-                    System.out.printf("Programs \n");
+                    System.out.printf("PROGRAMS.DIR \n");
                     System.out.println("CD.COM");
                     System.out.println("Em desenvolvimento");
                 }
                 if("help".equals(commando)) {
                     System.out.print("digite dir e tude o que tiver a extensão .com é um ");
                     System.out.println("comando que podemos usar");
-                    System.out.println("um com a extensão .exe é um aplicativo");
+                    System.out.print("um com a extensão .jar é um aplicativo ");
+                    System.out.printf("eles estão na pasta PROGRAMS \n");
                 }
             }
         }
