@@ -7,8 +7,8 @@ public class calculadora {
         System.out.println("------------------------------------");
         System.out.println("-------CALCULADORA INTERATIVA-------");
         System.out.println("------------------------------------");
-        int num;
-        byte menu;
+        int num = 0;
+        byte menu = 0;
         try (Scanner teclado = new Scanner(System.in)) {
             System.out.println("Digite [1] para ADIÇÃO");
             System.out.println("Digite [2] para SUBTRAÇÃO");
