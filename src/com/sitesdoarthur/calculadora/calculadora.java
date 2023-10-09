@@ -24,7 +24,32 @@ public class calculadora {
                 num1 = teclado.nextInt();
                 System.out.print("Segundo numero: ");
                 num2 = teclado.nextInt();
-                soma = num1 + num2; 
+                soma = num1 + num2;
+                System.out.println("O resultado é " + soma);
+            }
+            if(menu == 2) {
+                System.out.print("Primeiro numero: ");
+                num1 = teclado.nextInt();
+                System.out.print("Segundo numero: ");
+                num2 = teclado.nextInt();
+                soma = num1 - num2;
+                System.out.println("O resultado é " + soma);
+            }
+            if(menu == 3) {
+                System.out.print("Primeiro numero: ");
+                num1 = teclado.nextInt();
+                System.out.print("Segundo numero: ");
+                num2 = teclado.nextInt();
+                soma = num1 * num2;
+                System.out.println("O resultado é " + soma);
+            }
+            if(menu == 4) {
+                System.out.print("Primeiro numero: ");
+                num1 = teclado.nextInt();
+                System.out.print("Segundo numero: ");
+                num2 = teclado.nextInt();
+                s = num1 / num2;
+                System.out.println("O resultado é " + s);
             }
         }
     }
