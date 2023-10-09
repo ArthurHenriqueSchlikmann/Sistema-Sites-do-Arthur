@@ -7,8 +7,9 @@ public class calculadora {
         System.out.println("------------------------------------");
         System.out.println("-------CALCULADORA INTERATIVA-------");
         System.out.println("------------------------------------");
-        int num = 0;
-        byte menu = 0;
+        int num1;
+        int num2;
+        byte menu;
         try (Scanner teclado = new Scanner(System.in)) {
             System.out.println("Digite [1] para ADIÇÃO");
             System.out.println("Digite [2] para SUBTRAÇÃO");
@@ -16,6 +17,12 @@ public class calculadora {
             System.out.println("Digite [4] para DIVISÃO");
             System.out.println("E precione [ENTER] para confirmar");
             menu = teclado.nextByte();
+            if(menu == 1) {
+                System.out.print("Primeiro numero: ");
+                num1 = teclado.nextInt();
+                System.out.print("Segundo numero: ");
+                num2 = teclado.nextInt();
+            }
         }
     }
 }
