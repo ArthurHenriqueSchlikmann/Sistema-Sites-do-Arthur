@@ -20,13 +20,12 @@ public class System_1 {
                     System.out.println("DIR.COM");
                     System.out.println("EXIT.COM");
                     System.out.println("HELP.COM");
-                    System.out.println("NOTES.COM (temporary)");
                     System.out.println("Em desenvolvimento");
                 }
                 if("help".equals(commando)) {
                     System.out.print("digite dir e tude o que tiver a extensão .com é um ");
                     System.out.println("comando que podemos usar");
-                    System.out.println("");
+                    System.out.println("um com a extensão .exe é um aplicativo");
                 }
             }
         }
