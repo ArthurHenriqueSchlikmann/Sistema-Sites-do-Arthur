@@ -8,6 +8,8 @@ public class calculadora {
         System.out.println("-------CALCULADORA INTERATIVA-------");
         System.out.println("------------------------------------");
         int num1;
+        int soma;
+        float s;
         int num2;
         byte menu;
         try (Scanner teclado = new Scanner(System.in)) {
@@ -22,6 +24,7 @@ public class calculadora {
                 num1 = teclado.nextInt();
                 System.out.print("Segundo numero: ");
                 num2 = teclado.nextInt();
+                soma = num1 + num2; 
             }
         }
     }
