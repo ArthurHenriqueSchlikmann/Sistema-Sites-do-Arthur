@@ -1,6 +1,13 @@
+[
 {
-    "nome" : "Vinicius",
-    "apelido" : "Vini",
-    "idade" : 10,
-    "coisas_preferidas" : ["bate-rebate", "futbol", "videogame"]
+"nome" : "Vinicius",
+"apelido" : "Vini",
+"idade" : 10,
+"coisas_preferidas" : ["bate-rebate", "futbol", "videogame"]
+},
+{
+"nome" : "Ana",
+"melhor_amiga" : "Sofia",
+"idade" : 11
 }
+]
