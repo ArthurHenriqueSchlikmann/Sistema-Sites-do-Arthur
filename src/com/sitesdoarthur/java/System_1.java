@@ -1,6 +1,7 @@
 package com.sitesdoarthur.java;
 
 import java.util.Scanner;
+import com.sitesdoarthur.calculadora.calculadora;
 
 public class System_1 {
     /**
@@ -30,6 +31,9 @@ public class System_1 {
                     System.out.println("comando que podemos usar");
                     System.out.print("um com a extensão .jar é um aplicativo ");
                     System.out.printf("eles estão na pasta PROGRAMS \n");
+                }
+                if ("calculadora".equals(commando)) {
+                    calculadora.main(args);
                 }
             }
         }
