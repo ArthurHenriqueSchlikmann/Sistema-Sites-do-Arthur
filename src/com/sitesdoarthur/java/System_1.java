@@ -1,6 +1,7 @@
 package com.sitesdoarthur.java;
 
 import java.util.Scanner;
+import com.sitesdoarthur.aditionals.dir;
 import com.sitesdoarthur.calculadora.calculadora;
 
 public class System_1 {
@@ -19,12 +20,7 @@ public class System_1 {
                 System.out.print(pasta);
                 String commando = teclado.nextLine();
                 if("dir".equals(commando)) {
-                    System.out.println("DIR.COM");
-                    System.out.println("EXIT.COM");
-                    System.out.println("HELP.COM");
-                    System.out.printf("PROGRAMS.DIR \n");
-                    System.out.println("CD.COM");
-                    System.out.println("Em desenvolvimento");
+                    dir.DIR(pasta);
                 }
                 if("help".equals(commando)) {
                     System.out.print("digite dir e tude o que tiver a extensão .com é um ");
