@@ -32,8 +32,12 @@ public class System_1 {
                     System.out.print("um com a extensão .jar é um aplicativo ");
                     System.out.printf("eles estão na pasta PROGRAMS \n");
                 }
-                if ("calculadora".equals(commando)) {
+                if("calculadora".equals(commando)) {
                     calculadora.main(args);
+                }
+                if("cd".equals(commando)) {
+                    System.out.print("Caminho: ");
+                    pasta = teclado.nextLine();
                 }
             }
         }
