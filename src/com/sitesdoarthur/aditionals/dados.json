@@ -1,5 +1,6 @@
 {
     "nome" : "Vinicius",
     "apelido" : "Vini",
-    "idade" : 10
+    "idade" : 10,
+    "coisas_preferidas" : ["bate-rebate", "futbol", "videogame"]
 }
