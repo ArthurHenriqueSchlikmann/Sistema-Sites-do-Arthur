@@ -9,5 +9,10 @@
 "nome" : "Ana",
 "melhor_amiga" : "Sofia",
 "idade" : 11
+},
+{
+"nome" : "Miguel G.",
+"idade" : 11,
+"caracteristiacas" : ["doido", "debochado", "meio lelé"]
 }
 ]
