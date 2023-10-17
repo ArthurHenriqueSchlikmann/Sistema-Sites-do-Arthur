@@ -13,6 +13,11 @@
 {
 "nome" : "Miguel G.",
 "idade" : 11,
-"caracteristiacas" : ["doido", "debochado", "meio lelé"]
+"caracteristiacas" : ["doido", "debochado", "meio lelé"],
+"apelidos" : ["Mingal", "Gutnelson"]
+},
+{
+"nome" : "Henrique", 
+"idade" : 11
 }
 ]
